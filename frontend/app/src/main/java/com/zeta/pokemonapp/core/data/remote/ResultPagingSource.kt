@@ -5,7 +5,7 @@ import androidx.paging.PagingState
 import com.zeta.pokemonapp.core.data.remote.pokemonapi.PokemonApiService
 import com.zeta.pokemonapp.core.domain.model.ApiResponse
 import com.zeta.pokemonapp.core.domain.model.PokemonModel
-import com.zeta.pokemonapp.core.util.Util.toPokemonModel
+import com.zeta.pokemonapp.core.util.toPokemonModel
 import kotlinx.coroutines.flow.first
 
 class ResultPagingSource(

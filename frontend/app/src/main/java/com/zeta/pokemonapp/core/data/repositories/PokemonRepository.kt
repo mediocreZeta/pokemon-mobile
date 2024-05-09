@@ -13,7 +13,7 @@ import com.zeta.pokemonapp.core.domain.model.PokemonModel
 import com.zeta.pokemonapp.core.domain.model.PokemonWithDetailsModel
 import com.zeta.pokemonapp.core.domain.model.toPokemonEntity
 import com.zeta.pokemonapp.core.domain.repositories.IPokemonRepository
-import com.zeta.pokemonapp.core.util.Util.toPokemonWithDetailModel
+import com.zeta.pokemonapp.core.util.toPokemonWithDetailModel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
