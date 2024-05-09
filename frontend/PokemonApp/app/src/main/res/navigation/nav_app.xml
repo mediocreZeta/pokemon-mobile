@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homePokemonFragment">
+    <fragment
+        android:id="@+id/homePokemonFragment"
+        android:name="com.zeta.pokemonapp.page.home.HomePokemonFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home_pokemon" >
+        <action
+            android:id="@+id/action_pokemonFragment_to_pokemonDetailsFragment"
+            app:destination="@id/pokemonDetailsFragment" />
+        <action
+            android:id="@+id/action_pokemonFragment_to_myPokemon"
+            app:destination="@id/myPokemon" />
+    </fragment>
+    <fragment
+        android:id="@+id/pokemonDetailsFragment"
+        android:name="com.zeta.pokemonapp.page.pokemondetail.PokemonDetailsFragment"
+        android:label="@string/title_details"
+        tools:layout="@layout/fragment_pokemon_details" />
+    <fragment
+        android:id="@+id/myPokemon"
+        android:name="com.zeta.pokemonapp.page.mypokemon.MyPokemonFragment"
+        android:label="@string/title_my_pokemon"
+        tools:layout="@layout/fragment_my_pokemon" >
+        <action
+            android:id="@+id/action_myPokemon_to_pokemonDetailsFragment"
+            app:destination="@id/pokemonDetailsFragment" />
+    </fragment>
+</navigation>

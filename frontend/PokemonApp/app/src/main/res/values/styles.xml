@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="fullRoundedThumbnail" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">45%</item>
+        <item name="cornerSizeTopRight">45%</item>
+        <item name="cornerSizeBottomLeft">45%</item>
+        <item name="cornerSizeBottomRight">45%</item>
+    </style>
+</resources>
